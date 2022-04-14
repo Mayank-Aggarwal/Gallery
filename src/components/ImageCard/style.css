@@ -1,0 +1,31 @@
+.ImageCard {
+    padding: 10px;
+    height: 350px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.ImageCard:hover {
+    transform: scale(1.04);
+    transition: ease-in;
+}
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .ImageCard {
+        padding: 15px;
+        width: 50%;
+        height: 450px;
+        border-radius: 40px;
+    }
+}
+  
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .ImageCard {
+        padding: 20px;
+        width: 33%;
+        height: 500px;
+        border-radius: 50px;
+    }
+}
