@@ -1,4 +1,4 @@
-## Gallery
+## Gallery Application
 
-## Deployment link
+## Link
 https://mayankgallery.netlify.app
